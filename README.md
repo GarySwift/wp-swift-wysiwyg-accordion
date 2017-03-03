@@ -8,7 +8,7 @@
  * Text Domain:       wp-swift-wysiwyg-accordion
 
 ## Example Usage
-`[accordion section=’a’]
+[accordion section=’a’]
 
 [accordion-item id=’1′ section=’a’]
 Synergistically network best-of-breed schemas vis-a-vis professional models. Intrinsicly revolutionize distributed deliverables with process-centric imperatives. Authoritatively evisculate leveraged mindshare after scalable e-commerce.[/accordion-item]
@@ -21,7 +21,7 @@ Intrinsicly revolutionize distributed deliverables with process-centric imperati
 Phosfluorescently visualize an expanded array of solutions without viral expertise.
 [/accordion-item]
 
-[/accordion]`
+[/accordion]
 
 ## Sample Output
 &lt;ul class=&quot;accordion&quot; id=&quot;accordion-a&quot; data-accordion=&quot;10tewi-accordion&quot; role=&quot;tablist&quot;&gt;

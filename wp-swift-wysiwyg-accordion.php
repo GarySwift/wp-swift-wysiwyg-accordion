@@ -5,6 +5,7 @@ Description:       Output zurb foundation accordion content with wysiwyg shortco
 Version:           1.0.0
 Author:            Gary Swift
 License:           GPL-2.0+
+Plugin URI:        https://github.com/GarySwift/wp-swift-wysiwyg-accordion
 Text Domain:       wp-swift-wysiwyg-accordion
 */
 
@@ -54,13 +55,15 @@ class WP_Swift_Wysiwyg_Accordion_Plugin {
      */
     public function render_accordion_item( $atts, $content = null ) {
         extract( shortcode_atts( array(
-           'id' => '',
-           'section' => ''
+            'title' => 'Accordion Section',
+            'id' => '',
+            'section' => '',
+            'status' => '',
         ), $atts ) );
         ?>
           <li class="accordion-navigation">
-            <a href="#panel<?php echo $id.$section ?>">Accordion <?php echo $id ?></a>
-            <div id="panel<?php echo $id.$section ?>" class="content active"><?php echo $content ?></div>
+            <a href="#panel<?php echo $id.$section ?>"><?php echo $title ?></a>
+            <div id="panel<?php echo $id.$section ?>" class="content <?php echo $status ?>"><?php echo $content ?></div>
           </li>
         <?php
         return $html;
