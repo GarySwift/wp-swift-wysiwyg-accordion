@@ -35,7 +35,7 @@ class WP_Swift_Wysiwyg_Accordion_Plugin {
         ), $atts ) );
         ob_start();
         ?>
-        <ul class="accordion" id="accordion-<?php echo $section ?>" data-accordion>
+        <ul class="accordion wp-swift" id="accordion-<?php echo $section ?>" data-accordion>
             <?php do_shortcode($content); ?>
         </ul>
         <?php 
@@ -62,7 +62,7 @@ class WP_Swift_Wysiwyg_Accordion_Plugin {
         ), $atts ) );
         ?>
           <li class="accordion-navigation">
-            <a href="#panel<?php echo $id.$section ?>"><?php echo $title ?></a>
+            <a href="#panel<?php echo $id.$section ?>"><?php echo $title ?> <i class="fa fa-expand" aria-hidden="true"></i></a>
             <div id="panel<?php echo $id.$section ?>" class="content <?php echo $status ?>"><?php echo $content ?></div>
           </li>
         <?php

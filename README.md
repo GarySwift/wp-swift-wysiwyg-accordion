@@ -5,7 +5,6 @@
  * Version:           1.0.0
  * Author:            Gary Swift
  * License:           GPL-2.0+
- * Text Domain:       wp-swift-wysiwyg-accordion
 
 ## Example Usage
 [accordion section=’a’]
