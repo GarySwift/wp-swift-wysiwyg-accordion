@@ -1,4 +1,4 @@
-WP Swift: WYSIWYG Accordion
+# WP Swift: WYSIWYG Accordion
 
  * Plugin Name:       WP Swift: WYSIWYG Accordion
  * Description:       Output zurb foundation (5.1) accordion content with wysiwyg shortcodes
