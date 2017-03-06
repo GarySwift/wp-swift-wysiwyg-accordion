@@ -62,7 +62,7 @@ class WP_Swift_Wysiwyg_Accordion_Plugin {
         ), $atts ) );
         ?>
           <li class="accordion-navigation">
-            <a href="#panel<?php echo $id.$section ?>"><?php echo $title ?> <i class="fa fa-expand" aria-hidden="true"></i></a>
+            <a href="#panel<?php echo $id.$section ?>"><?php echo $title ?><span class="read-more">Read More <i class="fa fa-plus" aria-hidden="true"></i></span></a>
             <div id="panel<?php echo $id.$section ?>" class="content <?php echo $status ?>"><?php echo $content ?></div>
           </li>
         <?php
